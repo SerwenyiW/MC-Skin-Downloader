@@ -67,7 +67,6 @@ function chooseDownload(username, server, chooseSkins, validhash, php, i) {
     };
 
     if (i === server.folders.length - 1) {
-        console.log(chooseSkins);
         for (let chI = 0; chI < chooseSkins.length; chI++) {
             console.log(`${chooseSkins[chI][0]} -> ${foldersName[chooseSkins[chI][1]]}`);
         }
